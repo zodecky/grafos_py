@@ -2,7 +2,29 @@
 
 This project contains a Python implementation of various graph algorithms, including Dijkstra's algorithm for finding the shortest path between two nodes, Prim's algorithm for finding a minimum spanning tree, and a brute-force algorithm for finding the longest path between two nodes.
 
-## Usage (grafos.py as main)
+## Usage (readfile.py as main, with input files)
+
+### Run
+```shell
+python readfile.py
+```
+
+The files to be opened are defined in the main function. In this example, 3 are used.
+
+```python
+def main() -> None:
+    """Test the read_graph function."""
+    read_and_print("grafo_W_1.txt")
+    read_and_print("grafo_W_2.txt")
+    read_and_print("grafo_W_3.txt")
+```
+
+## Alternative usage (grafos.py as main, no file as input)
+
+### Run
+```shell
+python graph.py
+```
 
 First, create a `Graph` object:
 
@@ -25,6 +47,8 @@ Or just add a node by itself and connect it later:
 ```python
 g.add_node("1")
 ```
+
+
 # Algorithms
 
 ## Shortest path
