@@ -44,7 +44,7 @@ for node, (path, distance) in paths.items():
 
 ## Minimum spanning tree
 ```python
-mst = g.prim("1")
+mst = g.minimum_spanning_tree("1")
 for frm, to, cost in mst:
     print("Edge from {} to {}, Cost: {}".format(frm, to, cost))
 ```
