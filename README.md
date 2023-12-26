@@ -2,6 +2,9 @@
 
 This project contains a Python implementation of various graph algorithms, including Dijkstra's algorithm for finding the shortest path between two nodes, Prim's algorithm for finding a minimum spanning tree, and a brute-force algorithm for finding the longest path between two nodes.
 
+there was one graph file that was too big, link here to all 3:
+https://drive.google.com/file/d/1Q4BcJm4hCxW2hK3Mo03J25tziogUgIgt/view
+
 ## Usage (readfile.py as main, with input files)
 
 ### Run
