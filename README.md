@@ -56,5 +56,3 @@ print("Path:", path)
 print("Distance:", distance)
 ```
 
-## Limitations
-The longest_path method uses a brute-force approach that generates all paths from the start node to the end node and returns the longest one. This method can be very slow for large graphs or graphs with many paths between the start and end nodes. It's also not guaranteed to work correctly if the graph has cycles.
