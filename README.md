@@ -1,6 +1,6 @@
 # Graph Algorithms in Python
 
-This project contains a Python implementation of various graph algorithms, including Dijkstra's algorithm for finding the shortest path between two nodes, Prim's algorithm for finding a minimum spanning tree, and a brute-force algorithm for finding the longest path between two nodes.
+This project contains a Python implementation of various graph algorithms, including Dijkstra's algorithm for finding the shortest path between two nodes, Prim's algorithm for finding a minimum spanning tree, and a depth-first-search algorithm for finding the longest path between two nodes.
 
 there was one graph file that was too big, link here to all 3:
 https://drive.google.com/file/d/1Q4BcJm4hCxW2hK3Mo03J25tziogUgIgt/view
@@ -19,7 +19,6 @@ def main() -> None:
     """Test the read_graph function."""
     read_and_print("grafo_W_1.txt")
     read_and_print("grafo_W_2.txt")
-    read_and_print("grafo_W_3.txt")
 ```
 
 ## Alternative usage (grafos.py as main, no file as input)
@@ -76,7 +75,7 @@ for frm, to, cost in mst:
     print("Edge from {} to {}, Cost: {}".format(frm, to, cost))
 ```
 
-## Longest Path
+## Longest Path (slow)
 ```python
 path, distance = g.longest_path("1", "3")
 print("Path:", path)
